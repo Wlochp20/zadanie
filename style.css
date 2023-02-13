@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background: url("img/background.png");
+    background-color: #131963 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side{
+    height: 50vh;
+    width: 50%;
+    margin: 80px 0;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text-container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    margin: 15px 0;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.name-input{
+    height: 81px;
+    width: 480px;
+    background: #0B0437;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: space-around;
+}
+.input{
+    margin: 10px;
+    height: 80%;
+    width: 70%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: #ffffff99;
+    font-size: 24px;
+}
+.button{
+    height: 64px;
+    width: 153px;
+    margin: 10px;
+    font-size: 20px;
+    background: #3FDBD8;
+    color: white;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #3bc4c1;
+}
+.result-container{
+    width: 680px;
+    height: 824px;
+    background: linear-gradient(180deg, #0B0437 0%, rgba(11, 4, 55, 0) 100%);
+    display: flex;
+    flex-direction: column;
+}
+.result-container .title{
+    margin: 20px 50px;
+    align-self: flex-end;
+}
+.country{
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+}
+.chart{
+    height: 48px;
+    width: 100%;
+    margin: 10px 0;
+    background: linear-gradient(270deg, #3FDBD8 0%, rgba(63, 219, 216, 0.4) 100%);
+}
+.signature{
+    color: rgb(134, 134, 134);
+}
+.signature span{
+    color: rgb(214, 214, 214);
+}
